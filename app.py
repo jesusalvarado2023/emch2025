@@ -28,11 +28,9 @@ for tema, descripcion in temario.items():
     st.write(f"{descripcion}")
 
 # Botón de descarga de la Clase 1
-github_link = "https://github.com/jesusalvarado2023/emch2025/raw/main/Clases/Clase1.pdf"  #"https://github.com/usuario/repositorio/raw/main/Clases/Clase1.pdf" "https://github.com/jesusalvarado2023/emch2025/blob/main/Clases/Clase1.pdf"
-st.markdown("---")
-st.markdown("## 📥 Descargar Clase 1")
-st.write("Haz clic en el botón de abajo para descargar la primera clase en formato PDF.")
-st.download_button(label="📄 Descargar Clase 1", data=None, file_name="Clase1.pdf", key="download_clase1", help="El archivo se descargará desde GitHub", url=github_link)
+
+with open('Clase1.pdf', 'rb') as f:
+      st.download_button('Descargar', f, file_name='Clase1.pdf', mime='Clases/pdf')
 
 # Pie de página
 st.markdown("---")
