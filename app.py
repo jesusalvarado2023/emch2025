@@ -5,6 +5,7 @@ st.set_page_config(page_title="Temario del Curso de Química", page_icon="🧪",
 
 # Título principal
 st.title("📘 QUÍMICA GENERAL")
+st.info("Dr. Jesus Alvarado Huayhuaz")
 st.markdown("---")
 
 # Sección de presentación
@@ -12,7 +13,7 @@ titulo_curso = "Bachillerato en Ciencias Militares | Ciencias y Humanidades"
 st.subheader(titulo_curso)
 st.write("Bienvenidos al curso de Química General donde aprenderemos desde los principios básicos de la química hasta aplicaciones en la vida cotidiana y en la investigación científica.")
 st.markdown("---")
-st.write("Dr. Jesus Alvarado Huayhuaz")
+#st.write("Dr. Jesus Alvarado Huayhuaz")
 
 # Temario
 st.markdown("## 📌 Temario del Curso")
