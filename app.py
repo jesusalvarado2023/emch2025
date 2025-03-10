@@ -28,9 +28,10 @@ for tema, descripcion in temario.items():
     st.write(f"{descripcion}")
 
 # Botón de descarga de la Clase 1
-
-with open('Clase1.pdf', 'r') as f:
-      st.download_button('Descargar', f, file_name='Clase1.pdf', mime='Clases/pdf')
+# URL del archivo PDF en tu repositorio de GitHub
+pdf_url = "https://github.com/jesusalvarado2023/emch2025/blob/main/Clases/Clase1.pdf"
+# Botón para descargar el PDF
+st.markdown(f"[⬇️ Descargar PDF]( {pdf_url} )", unsafe_allow_html=True)
 
 # Pie de página
 st.markdown("---")
