@@ -29,7 +29,7 @@ for tema, descripcion in temario.items():
 
 # Botón de descarga de la Clase 1
 
-with open('Clase1.pdf', 'rb') as f:
+with open('Clase1.pdf', 'r') as f:
       st.download_button('Descargar', f, file_name='Clase1.pdf', mime='Clases/pdf')
 
 # Pie de página
