@@ -8,7 +8,7 @@ st.title("📘 QUÍMICA GENERAL")
 st.markdown("---")
 
 # Sección de presentación
-titulo_curso = "Bachillerato en Ciencias Militares"
+titulo_curso = "Bachillerato en Ciencias Militares | Ciencias y Humanidades"
 st.subheader(titulo_curso)
 st.write("Bienvenidos a este curso donde aprenderemos desde los principios básicos de la química hasta sus aplicaciones en la vida cotidiana y en la investigación científica.")
 st.markdown("---")
@@ -17,12 +17,12 @@ st.write("Dr. Jesus Alvarado Huayhuaz")
 # Temario
 st.markdown("## 📌 Temario del Curso")
 temario = {
-    "1️⃣ Introducción a la Química": "Conceptos básicos, historia y ramas de la química.",
-    "2️⃣ Estructura Atómica y Enlace Químico": "Átomos, modelos atómicos, tipos de enlaces químicos.",
-    "3️⃣ Termodinámica Química": "Leyes de la termodinámica, energía libre, equilibrio químico.",
-    "4️⃣ Cinética Química": "Velocidad de reacción, factores que afectan la velocidad de reacción.",
-    "5️⃣ Química Orgánica": "Hidrocarburos, grupos funcionales, reacciones orgánicas básicas.",
-    "6️⃣ Química Bioinorgánica": "Metales en sistemas biológicos, mecanismos de transporte y almacenamiento.",
+    "1️⃣ Unidad I": "Estructura atómica y Tabla periódica",
+    "2️⃣ Unidad II": "Reacciones químicas y estequiometría",
+    "3️⃣ Unidad III": "Estado gaseoso y soluciones",
+    "4️⃣ Unidad IV": "Unidades de concentración y medio ambiente",
+    #"5️⃣ Química Orgánica": "Hidrocarburos, grupos funcionales, reacciones orgánicas básicas.",
+    #"6️⃣ Química Bioinorgánica": "Metales en sistemas biológicos, mecanismos de transporte y almacenamiento.",
 }
 
 for tema, descripcion in temario.items():
