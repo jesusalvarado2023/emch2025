@@ -29,11 +29,17 @@ for tema, descripcion in temario.items():
     st.markdown(f"### {tema}")
     st.write(f"{descripcion}")
 
-# Botón de descarga de la Clase 1
+##########################################
+st.markdown("---")
+st.markdown("## 📥 Descargas")
+st.write("Archivos en formatos PDF.")
+
 # URL del archivo PDF en tu repositorio de GitHub
-pdf_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase1.pdf" #"https://github.com/jesusalvarado2023/emch2025/blob/main/Clases/Clase1.pdf"
-# Botón para descargar el PDF
-st.markdown(f"[⬇️ Descargar pdf de la CLASE 1]( {pdf_url} )", unsafe_allow_html=True)
+clase1_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase1.pdf"
+st.markdown(f"[⬇️ Clase 1]( {clase1_url} )", unsafe_allow_html=True)
+
+silabo_url1 = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/SILABO.pdf"
+st.markdown(f"[⬇️ Descargar pdf del Sílabo]( {silabo_url1} )", unsafe_allow_html=True)
 
 # Pie de página
 st.markdown("---")
