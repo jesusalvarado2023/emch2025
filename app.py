@@ -37,4 +37,4 @@ st.markdown(f"[⬇️ Descargar pdf de la CLASE 1]( {pdf_url} )", unsafe_allow_h
 
 # Pie de página
 st.markdown("---")
-st.write("© 2025 - Curso de Química | Creado con ❤️ y Streamlit")
+st.write("© 2025")
