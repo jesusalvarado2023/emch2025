@@ -29,7 +29,7 @@ for tema, descripcion in temario.items():
 
 # Botón de descarga de la Clase 1
 # URL del archivo PDF en tu repositorio de GitHub
-pdf_url = "https://github.com/jesusalvarado2023/emch2025/blob/main/Clases/Clase1.pdf"
+pdf_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase1.pdf" #"https://github.com/jesusalvarado2023/emch2025/blob/main/Clases/Clase1.pdf"
 # Botón para descargar el PDF
 st.markdown(f"[⬇️ Descargar PDF]( {pdf_url} )", unsafe_allow_html=True)
 
