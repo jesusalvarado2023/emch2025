@@ -39,7 +39,7 @@ clase1_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/
 st.markdown(f"[⬇️ Clase 1]( {clase1_url} )", unsafe_allow_html=True)
 
 silabo_url1 = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/SILABO.pdf"
-st.markdown(f"[⬇️ Descargar pdf del Sílabo]( {silabo_url1} )", unsafe_allow_html=True)
+st.markdown(f"[⬇️ Sílabo]( {silabo_url1} )", unsafe_allow_html=True)
 
 # Pie de página
 st.markdown("---")
