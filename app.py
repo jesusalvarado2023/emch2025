@@ -32,7 +32,7 @@ github_link = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main
 st.markdown("---")
 st.markdown("## 📥 Descargar Clase 1")
 st.write("Haz clic en el botón de abajo para descargar la primera clase en formato PDF.")
-st.download_button(label="📄 Descargar Clase 1", data=None, file_name="Clase1.pdf", key="download_clase1", help="El archivo se descargará desde GitHub", url=github_link)
+st.download_button(label="📄 Descargar Clase 1", data=None, file_name="Clases/Clase1.pdf", key="download_clase1", help="El archivo se descargará desde GitHub", url=github_link)
 
 # Pie de página
 st.markdown("---")
