@@ -4,13 +4,15 @@ import streamlit as st
 st.set_page_config(page_title="Temario del Curso de Química", page_icon="🧪", layout="wide")
 
 # Título principal
-st.title("📘 Temario del Curso de Química")
+st.title("📘 QUÍMICA GENERAL")
 st.markdown("---")
 
 # Sección de presentación
-titulo_curso = "Explorando los Fundamentos y Aplicaciones de la Química"
+titulo_curso = "Bachillerato en Ciencias Militares"
 st.subheader(titulo_curso)
 st.write("Bienvenidos a este curso donde aprenderemos desde los principios básicos de la química hasta sus aplicaciones en la vida cotidiana y en la investigación científica.")
+st.markdown("---")
+st.write("Dr. Jesus Alvarado Huayhuaz")
 
 # Temario
 st.markdown("## 📌 Temario del Curso")
@@ -31,7 +33,7 @@ for tema, descripcion in temario.items():
 # URL del archivo PDF en tu repositorio de GitHub
 pdf_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase1.pdf" #"https://github.com/jesusalvarado2023/emch2025/blob/main/Clases/Clase1.pdf"
 # Botón para descargar el PDF
-st.markdown(f"[⬇️ Descargar PDF]( {pdf_url} )", unsafe_allow_html=True)
+st.markdown(f"[⬇️ Descargar pdf de la CLASE 1]( {pdf_url} )", unsafe_allow_html=True)
 
 # Pie de página
 st.markdown("---")
