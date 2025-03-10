@@ -10,7 +10,7 @@ st.markdown("---")
 # Sección de presentación
 titulo_curso = "Bachillerato en Ciencias Militares | Ciencias y Humanidades"
 st.subheader(titulo_curso)
-st.write("Bienvenidos a este curso donde aprenderemos desde los principios básicos de la química hasta sus aplicaciones en la vida cotidiana y en la investigación científica.")
+st.write("Bienvenidos al curso de Química General donde aprenderemos desde los principios básicos de la química hasta aplicaciones en la vida cotidiana y en la investigación científica.")
 st.markdown("---")
 st.write("Dr. Jesus Alvarado Huayhuaz")
 
