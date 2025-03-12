@@ -4,16 +4,23 @@ import streamlit.components.v1 as components
 # Configuración de la página
 st.set_page_config(page_title="Temario del Curso de Química", page_icon="🧪", layout="wide")
 ##############
-st.sidebar.image("img/combustion-metano.svg",
-                 caption="Curso Química General")
+st.sidebar.image("img/combustion-metano.svg", caption="Curso Química General")
+st.info("Autor: Dr. Jesus Alvarado Huayhuaz")
+st.write("Actualmente docente investigador en el Laboratorio de Ingeniería Biomédica de la Universidad Peruana Cayetano Heredia")
+st.write("Contacto: jesus.alvarado@upch.pe")
 
 #############################Pagina 1############################## 
 def Home():
     # Título principal
     st.title("📘 QUÍMICA GENERAL")
-    st.info("Dr. Jesus Alvarado Huayhuaz")
+    #st.info("Dr. Jesus Alvarado Huayhuaz")
     st.markdown("---")
-    
+
+    st.info("NOVEDADES: Números cuánticos")
+    enlace = "https://numeroscuanticos.streamlit.app/"
+    st.write("Practica los números cuánticos con ejercicios [aquí](%s)" % enlace)
+    st.image("img/nuclido1.png", caption="https://numeroscuanticos.streamlit.app/")
+  
     # Sección de presentación
     titulo_curso = "Bachillerato en Ciencias Militares | Ciencias y Humanidades"
     st.subheader(titulo_curso)
