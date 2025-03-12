@@ -36,3 +36,9 @@ if st.button("Verificar respuesta"):
         st.balloons()  # Animación de globos si la respuesta es correcta
     else:
         st.error("Incorrecto. Intenta de nuevo.")
+
+# Botón para generar una nueva pregunta
+if st.button("Nueva pregunta"):
+    st.session_state.configuracion_actual = random.choice(list(configuraciones.keys()))
+    st.session_state.respuesta_correcta = configuraciones[st.session_state.configuracion_actual]
+    st.rerun()
