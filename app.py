@@ -95,6 +95,10 @@ def page7():
    diapositivas6 = "https://docs.google.com/presentation/d/1fYiv0TwEqXue4sgTAmpw7kUX6L4q-gJp/preview"
    st.markdown(f'<iframe src="{diapositivas6}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
+   st.info("Juguemos con simulaciones")
+   reaccion6 = "https://phet.colorado.edu/sims/html/balancing-chemical-equations/latest/balancing-chemical-equations_en.html"
+   st.components.v1.iframe(reaccion6, width=800, height=600, scrolling=False)
+
 #############################Pagina 8############################## 
 
 def page8():
