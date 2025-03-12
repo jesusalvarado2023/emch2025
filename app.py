@@ -60,7 +60,7 @@ def page2():
     st.markdown(f'<iframe src="{diapositivas1}" width="800" height="500"></iframe>', unsafe_allow_html=True)
 
     st.info("Juguemos con simulaciones")
-    phet1 = "https://phet.colorado.edu/sims/html/build-a-molecule/latest/build-a-molecule_all.html"
+    phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"  #"https://phet.colorado.edu/sims/html/build-a-molecule/latest/build-a-molecule_all.html"
     st.components.v1.iframe(phet1, width=800, height=600, scrolling=False)
 
     st.info("Formas de las moléculas")
@@ -73,9 +73,16 @@ def page2():
 
 
 
+
 #############################Pagina 3############################## 
 def page3():
     st.header('Semana 2:', divider='rainbow')
+
+#Polaridad
+#https://phet.colorado.edu/sims/html/molecule-polarity/latest/molecule-polarity_all.html
+
+#Concentraciones
+#https://phet.colorado.edu/sims/html/concentration/latest/concentration_all.html
 
 #############################Pagina 4############################## 
 def page4():
