@@ -58,10 +58,10 @@ def page2():
     diapositivas1 = "https://docs.google.com/presentation/d/1mrNHsc_6a0d4AQsiWsYsQvvRqqctcFey/preview"
     st.markdown(f'<iframe src="{diapositivas1}" width="800" height="500"></iframe>', unsafe_allow_html=True)
 
-    st.info("Juega con los números cuánticos")
-    imagen_url = "https://github.com/jesusalvarado2023/emch2025/blob/main/img/nuclido1.png?raw=true"
+    st.info("Números cuánticos")
     enlace = "https://numeroscuanticos.streamlit.app/"
-    st.markdown(f'<a href="{enlace}" target="_blank"><img src="{imagen_url}" width="300"></a>', unsafe_allow_html=True)  
+    st.write("Practica los números cuánticos con ejercicios [aquí](%s)" % enlace)
+    #st.markdown("check out this [link](%s)" % url)
 
     st.info("Juguemos con simulaciones")
     phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
