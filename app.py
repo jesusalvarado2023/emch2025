@@ -90,8 +90,6 @@ def page7():
    diapositivas6 = "https://docs.google.com/presentation/d/1fYiv0TwEqXue4sgTAmpw7kUX6L4q-gJp/preview"
    st.markdown(f'<iframe src="{diapositivas6}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
-
-
 #############################Pagina 8############################## 
 
 def page8():
@@ -113,8 +111,8 @@ def page11():
    st.header('Semana 10:', divider='rainbow')
 
 # URL de la simulación de PhET
-phet_url = "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_en.html"
-st.components.v1.iframe(phet_url, width=800, height=600, scrolling=False)
+#phet_url = "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_en.html"
+#st.components.v1.iframe(phet_url, width=800, height=600, scrolling=False)
    
 ################################################################### 
 ##########################Configuracion############################    
