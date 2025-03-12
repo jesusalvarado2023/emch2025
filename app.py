@@ -1,5 +1,11 @@
 import streamlit as st
 
+##############
+st.sidebar.image("img/combustion-metano.svg",
+                 caption="Curso Química General")
+
+#############################Pagina 1############################## 
+
 # Configuración de la página
 st.set_page_config(page_title="Temario del Curso de Química", page_icon="🧪", layout="wide")
 
@@ -44,4 +50,4 @@ st.markdown(f"[⬇️ Sílabo]( {silabo_url1} )", unsafe_allow_html=True)
 
 # Pie de página
 st.markdown("---")
-st.write("© 2025")
+st.write("Jesus Alvarado-Huayhuaz © 2025")
