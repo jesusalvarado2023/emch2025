@@ -77,7 +77,8 @@ if "configuracion_actual" not in st.session_state:
 st.header("Números Cuánticos", divider='rainbow')
 #st.write("Ejercicios para prácticar:")
 
-st.subheader(f"Encuentra los números cuánticos de: {st.session_state.configuracion_actual}")
+st.subheader("Encuentra los números cuánticos de:") #(f"Encuentra los números cuánticos de: {st.session_state.configuracion_actual}")
+st.info(st.session_state.configuracion_actual)
 
 # Crear cuatro campos de entrada para los números cuánticos
 n = st.number_input("Número cuántico principal (n):", min_value=1, max_value=7, step=1)
