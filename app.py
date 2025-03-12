@@ -91,6 +91,8 @@ def page7():
    diapositivas6 = "https://docs.google.com/presentation/d/1fYiv0TwEqXue4sgTAmpw7kUX6L4q-gJp/preview"
    st.markdown(f'<iframe src="{diapositivas6}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
+
+
 #############################Pagina 8############################## 
 
 def page8():
