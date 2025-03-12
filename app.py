@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Configuración de la página
-#st.set_page_config(page_title="Temario del Curso de Química", page_icon="🧪", layout="wide")
+st.set_page_config(page_title="Temario del Curso de Química", page_icon="🧪", layout="wide")
 
 ##############
 st.sidebar.image("img/combustion-metano.svg",
