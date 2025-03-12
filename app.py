@@ -1,14 +1,13 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 # Configuración de la página
 st.set_page_config(page_title="Temario del Curso de Química", page_icon="🧪", layout="wide")
-
 ##############
 st.sidebar.image("img/combustion-metano.svg",
                  caption="Curso Química General")
 
 #############################Pagina 1############################## 
-
 def Home():
     # Título principal
     st.title("📘 QUÍMICA GENERAL")
@@ -112,6 +111,10 @@ def page10():
 
 def page11():
    st.header('Semana 10:', divider='rainbow')
+
+# URL de la simulación de PhET
+phet_url = "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_en.html"
+st.components.v1.iframe(phet_url, width=800, height=600, scrolling=False)
    
 ################################################################### 
 ##########################Configuracion############################    
