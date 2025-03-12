@@ -2,9 +2,8 @@ import streamlit as st
 import random
 import time
 
-st.sidebar.image("img/cuantica.png", caption="Números Cuánticos")
+st.sidebar.image("img/cuantica.png", caption="Autor: Dr. Jesús Alvarado-Huayhuaz")
 
-# Definir posibles configuraciones de electrones y sus números cuánticos
 configuraciones = {
     "1s1": (1, 0, 0, 1/2), "1s2": (1, 0, 0, -1/2),  
     "2s1": (2, 0, 0, 1/2), "2s2": (2, 0, 0, -1/2),
@@ -75,8 +74,8 @@ if "configuracion_actual" not in st.session_state:
     st.session_state.respuesta_correcta = configuraciones[st.session_state.configuracion_actual]
 
 # UI en Streamlit
-st.title("Números Cuánticos")
-st.write("Ejercicios:")
+st.header("Números Cuánticos", divider='rainbow')
+#st.write("Ejercicios para prácticar:")
 
 st.subheader(f"Encuentra los números cuánticos de: {st.session_state.configuracion_actual}")
 
