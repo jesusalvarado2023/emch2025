@@ -61,7 +61,7 @@ def page2():
     st.info("Números cuánticos")
     enlace = "https://numeroscuanticos.streamlit.app/"
     st.write("Practica los números cuánticos con ejercicios [aquí](%s)" % enlace)
-    #st.markdown("check out this [link](%s)" % url)
+    st.image("img/nuclido1.png", caption="https://numeroscuanticos.streamlit.app/")
 
     st.info("Juguemos con simulaciones")
     phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
