@@ -63,6 +63,12 @@ def page2():
     phet1 = "https://phet.colorado.edu/sims/html/build-a-molecule/latest/build-a-molecule_all.html"
     st.components.v1.iframe(phet1, width=800, height=600, scrolling=False)
 
+    st.info("Formas de las moléculas")
+    phet2 = "https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html"
+    st.components.v1.iframe(phet2, width=800, height=600, scrolling=False)
+
+
+
 #############################Pagina 3############################## 
 def page3():
     st.header('Semana 2:', divider='rainbow')
