@@ -75,9 +75,10 @@ if "configuracion_actual" not in st.session_state:
 
 # UI en Streamlit
 st.header("Números Cuánticos", divider='rainbow')
-#st.write("Ejercicios para prácticar:")
+st.image("img/nuclido.png")
 
-st.subheader("Encuentra los números cuánticos de:") #(f"Encuentra los números cuánticos de: {st.session_state.configuracion_actual}")
+
+st.subheader("Encuentra los números cuánticos de:")
 st.info(st.session_state.configuracion_actual)
 
 # Crear cuatro campos de entrada para los números cuánticos
