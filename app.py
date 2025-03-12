@@ -122,7 +122,7 @@ page_names_to_funcs = {
   "Semana 3": page4,
   "Semana 4": page5,
   "Semana 5: Reacciones Químicas": page6,
-  "Semana 6": page7,
+  "Semana 6: Balance de Reacciones": page7,
   "Semana 7": page8,
   "Semana 8": page9,
   "Semana 9": page10,
