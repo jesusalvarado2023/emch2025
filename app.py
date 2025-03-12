@@ -82,6 +82,11 @@ def page6():
     diapositivas5 = "https://docs.google.com/presentation/d/1yjiifuX45QFjLBRFF8xks4ltaSuhz7lr/preview"
     st.markdown(f'<iframe src="{diapositivas5}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
+    st.info("Juguemos con simulaciones")
+    reaccion5 = "https://phet.colorado.edu/sims/html/reactants-products-and-leftovers/latest/reactants-products-and-leftovers_all.html"
+    st.components.v1.iframe(reaccion5, width=800, height=600, scrolling=False)
+
+
 #############################Pagina 7############################## 
 
 def page7():
@@ -109,10 +114,6 @@ def page10():
 
 def page11():
    st.header('Semana 10:', divider='rainbow')
-
-# URL de la simulación de PhET
-#phet_url = "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_en.html"
-#st.components.v1.iframe(phet_url, width=800, height=600, scrolling=False)
    
 ################################################################### 
 ##########################Configuracion############################    
