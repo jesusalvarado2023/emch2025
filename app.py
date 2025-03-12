@@ -57,10 +57,8 @@ def Home():
 
 def page2():
     st.header('Semana 1: Estructura atómica y Tabla periódica', divider='rainbow')
-
-
-diapositivas1 = "https://docs.google.com/presentation/d/1yjiifuX45QFjLBRFF8xks4ltaSuhz7lr/preview"
-st.markdown(f'<iframe src="{diapositivas1}" width="700" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
+    diapositivas1 = "https://docs.google.com/presentation/d/1yjiifuX45QFjLBRFF8xks4ltaSuhz7lr/preview"
+    st.markdown(f'<iframe src="{diapositivas1}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
 #############################Pagina 3############################## 
 
