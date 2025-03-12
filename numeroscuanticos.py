@@ -3,6 +3,7 @@ import random
 import time
 
 st.sidebar.image("img/cuantica.png", caption="Autor: Dr. Jesús Alvarado-Huayhuaz")
+st.sidebar.write("Ejemplo:")
 st.sidebar.image("img/nuclido1.png")
 
 configuraciones = {
