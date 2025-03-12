@@ -58,6 +58,10 @@ def Home():
 def page2():
     st.header('Semana 1: Estructura atómica y Tabla periódica', divider='rainbow')
 
+
+diapositivas1 = https://docs.google.com/presentation/d/1yjiifuX45QFjLBRFF8xks4ltaSuhz7lr/preview
+st.markdown(f'<iframe src="{diapositivas1}" width="700" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
+
 #############################Pagina 3############################## 
 
 def page3():
@@ -123,3 +127,5 @@ page_names_to_funcs = {
 
 selected_page = st.sidebar.selectbox("Temario", page_names_to_funcs.keys())
 page_names_to_funcs[selected_page]()
+
+#https://docs.google.com/presentation/d/1yjiifuX45QFjLBRFF8xks4ltaSuhz7lr/edit?usp=sharing&ouid=116234516776721649949&rtpof=true&sd=true
