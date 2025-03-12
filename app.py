@@ -59,13 +59,15 @@ def page2():
     diapositivas1 = "https://docs.google.com/presentation/d/1mrNHsc_6a0d4AQsiWsYsQvvRqqctcFey/preview"
     st.markdown(f'<iframe src="{diapositivas1}" width="800" height="500"></iframe>', unsafe_allow_html=True)
 
-#############################Pagina 3############################## 
+    st.info("Juguemos con simulaciones")
+    phet1 = "https://phet.colorado.edu/sims/html/build-a-molecule/latest/build-a-molecule_all.html"
+    st.components.v1.iframe(phet1, width=800, height=600, scrolling=False)
 
+#############################Pagina 3############################## 
 def page3():
     st.header('Semana 2:', divider='rainbow')
 
 #############################Pagina 4############################## 
-
 def page4():
     st.header('Semana 3:', divider='rainbow')
 
@@ -86,9 +88,7 @@ def page6():
     reaccion5 = "https://phet.colorado.edu/sims/html/reactants-products-and-leftovers/latest/reactants-products-and-leftovers_all.html"
     st.components.v1.iframe(reaccion5, width=800, height=600, scrolling=False)
 
-
 #############################Pagina 7############################## 
-
 def page7():
    st.header('Semana 6: Balance de Reacciones', divider='rainbow')
 
