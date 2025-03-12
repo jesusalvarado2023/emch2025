@@ -19,7 +19,6 @@ def Home():
     st.subheader(titulo_curso)
     st.write("Bienvenidos al curso de Química General donde aprenderemos desde los principios básicos de la química hasta aplicaciones en la vida cotidiana y en la investigación científica.")
     st.markdown("---")
-    #st.write("Dr. Jesus Alvarado Huayhuaz")
     
     # Temario
     st.markdown("## 📌 Temario del Curso")
@@ -59,8 +58,13 @@ def page2():
     diapositivas1 = "https://docs.google.com/presentation/d/1mrNHsc_6a0d4AQsiWsYsQvvRqqctcFey/preview"
     st.markdown(f'<iframe src="{diapositivas1}" width="800" height="500"></iframe>', unsafe_allow_html=True)
 
+    st.info("Juega con los números cuánticos")
+    imagen_url = "https://github.com/jesusalvarado2023/emch2025/blob/main/img/nuclido1.png?raw=true"
+    enlace = "https://numeroscuanticos.streamlit.app/"
+    st.markdown(f'<a href="{enlace}" target="_blank"><img src="{imagen_url}" width="300"></a>', unsafe_allow_html=True)  
+
     st.info("Juguemos con simulaciones")
-    phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"  #"https://phet.colorado.edu/sims/html/build-a-molecule/latest/build-a-molecule_all.html"
+    phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
     st.components.v1.iframe(phet1, width=800, height=600, scrolling=False)
 
     st.info("Formas de las moléculas")
