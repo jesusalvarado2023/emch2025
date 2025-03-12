@@ -74,9 +74,8 @@ if "configuracion_actual" not in st.session_state:
     st.session_state.respuesta_correcta = configuraciones[st.session_state.configuracion_actual]
 
 # UI en Streamlit
-st.header("Números Cuánticos", divider='rainbow')
-st.image("img/nuclido.png")
-
+st.header(":blue[Números Cuánticos] :sunglasses:", divider='rainbow')
+st.image("img/nuclido1.png")
 
 st.subheader("Encuentra los números cuánticos de:")
 st.info(st.session_state.configuracion_actual)
@@ -100,3 +99,5 @@ if st.button("Nueva pregunta"):
     st.session_state.configuracion_actual = random.choice(list(configuraciones.keys()))
     st.session_state.respuesta_correcta = configuraciones[st.session_state.configuracion_actual]
     st.rerun()
+
+st.image("img/nuclido0.png")
