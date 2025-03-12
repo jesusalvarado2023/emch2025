@@ -12,15 +12,16 @@ configuraciones = {
     "6p5": (6, 1, 0, -1/2)
 }
 
-# Seleccionar aleatoriamente una configuración
-configuracion_actual = random.choice(list(configuraciones.keys()))
-respuesta_correcta = configuraciones[configuracion_actual]
+# Usar session_state para evitar que la pregunta cambie al interactuar con los inputs
+if "configuracion_actual" not in st.session_state:
+    st.session_state.configuracion_actual = random.choice(list(configuraciones.keys()))
+    st.session_state.respuesta_correcta = configuraciones[st.session_state.configuracion_actual]
 
 # UI en Streamlit
 st.title("Juego de Números Cuánticos")
 st.write("Ingresa los números cuánticos correctos para la configuración electrónica dada:")
 
-st.subheader(f"Encuentra los números cuánticos de: {configuracion_actual}")
+st.subheader(f"Encuentra los números cuánticos de: {st.session_state.configuracion_actual}")
 
 # Crear cuatro campos de entrada para los números cuánticos
 n = st.number_input("Número cuántico principal (n):", min_value=1, max_value=7, step=1)
@@ -30,7 +31,7 @@ s = st.selectbox("Número cuántico de espín (s):", options=[-1/2, 1/2])
 
 # Botón para verificar la respuesta
 if st.button("Verificar respuesta"):
-    if (n, l, m, s) == respuesta_correcta:
+    if (n, l, m, s) == st.session_state.respuesta_correcta:
         st.success("¡Correcto! 🎉")
         st.balloons()  # Animación de globos si la respuesta es correcta
     else:
