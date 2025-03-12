@@ -167,5 +167,5 @@ selected_page = st.sidebar.selectbox("Temario", page_names_to_funcs.keys())
 page_names_to_funcs[selected_page]()
 
 st.sidebar.info("Autor: Dr. Jesus Alvarado Huayhuaz")
-st.sidebar.write("Actualmente docente investigador en el Laboratorio de Ingeniería Biomédica de la Universidad Peruana Cayetano Heredia")
+st.sidebar.write("Laboratorio de Ingeniería Biomédica, Universidad Peruana Cayetano Heredia")
 st.sidebar.write("Contacto: jesus.alvarado@upch.pe")
