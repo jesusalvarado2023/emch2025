@@ -67,6 +67,10 @@ def page2():
     phet2 = "https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html"
     st.components.v1.iframe(phet2, width=800, height=600, scrolling=False)
 
+    st.info("Isótopos")
+    phet3 = "https://phet.colorado.edu/sims/html/isotopes-and-atomic-mass/latest/isotopes-and-atomic-mass_all.html"
+    st.components.v1.iframe(phet3, width=800, height=600, scrolling=False)
+
 
 
 #############################Pagina 3############################## 
