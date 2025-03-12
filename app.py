@@ -5,9 +5,6 @@ import streamlit.components.v1 as components
 st.set_page_config(page_title="Temario del Curso de Química", page_icon="🧪", layout="wide")
 ##############
 st.sidebar.image("img/combustion-metano.svg", caption="Curso Química General")
-st.sidebar.info("Autor: Dr. Jesus Alvarado Huayhuaz")
-st.sidebar.write("Actualmente docente investigador en el Laboratorio de Ingeniería Biomédica de la Universidad Peruana Cayetano Heredia")
-st.sidebar.write("Contacto: jesus.alvarado@upch.pe")
 
 #############################Pagina 1############################## 
 def Home():
@@ -168,3 +165,7 @@ page_names_to_funcs = {
 
 selected_page = st.sidebar.selectbox("Temario", page_names_to_funcs.keys())
 page_names_to_funcs[selected_page]()
+
+st.sidebar.info("Autor: Dr. Jesus Alvarado Huayhuaz")
+st.sidebar.write("Actualmente docente investigador en el Laboratorio de Ingeniería Biomédica de la Universidad Peruana Cayetano Heredia")
+st.sidebar.write("Contacto: jesus.alvarado@upch.pe")
