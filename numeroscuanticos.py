@@ -3,6 +3,7 @@ import random
 import time
 
 st.sidebar.image("img/cuantica.png", caption="Autor: Dr. Jesús Alvarado-Huayhuaz")
+st.sidebar.image("img/nuclido1.png")
 
 configuraciones = {
     "1s1": (1, 0, 0, 1/2), "1s2": (1, 0, 0, -1/2),  
@@ -73,14 +74,13 @@ if "configuracion_actual" not in st.session_state:
     st.session_state.configuracion_actual = random.choice(list(configuraciones.keys()))
     st.session_state.respuesta_correcta = configuraciones[st.session_state.configuracion_actual]
 
-# UI en Streamlit
-st.header(":blue[Números Cuánticos] :sunglasses:", divider='rainbow')
-st.image("img/nuclido1.png")
+# Encabezado
+st.header(":blue[Números Cuánticos]") #:sunglasses:", divider='rainbow')
 
-st.subheader("Encuentra los números cuánticos de:")
-st.info(st.session_state.configuracion_actual)
+st.info("Encuentra los números cuánticos de:")
+st.subheader(st.session_state.configuracion_actual)
 
-# Crear cuatro campos de entrada para los números cuánticos
+# Campos de entrada para los números cuánticos
 n = st.number_input("Número cuántico principal (n):", min_value=1, max_value=7, step=1)
 l = st.number_input("Número cuántico azimutal (l):", min_value=0, max_value=3, step=1)
 m = st.number_input("Número cuántico magnético (m):", min_value=-3, max_value=3, step=1)
@@ -100,4 +100,4 @@ if st.button("Nueva pregunta"):
     st.session_state.respuesta_correcta = configuraciones[st.session_state.configuracion_actual]
     st.rerun()
 
-st.image("img/nuclido0.png")
+st.image("img/nuclido.png")
