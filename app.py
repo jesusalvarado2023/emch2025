@@ -57,9 +57,9 @@ def Home():
 
 def page2():
     st.header('Semana 1: Estructura atómica y Tabla periódica', divider='rainbow')
-    diapositivas1 = "https://docs.google.com/presentation/d/1yjiifuX45QFjLBRFF8xks4ltaSuhz7lr/preview"
-    st.markdown(f'<iframe src="{diapositivas1}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
-
+    diapositivas1 = "https://drive.google.com/file/d/1if24LYZp-r2vLb9IeMDZcfsRzN6jLJwb/preview"
+    st.markdown(f'<iframe src="{diapositivas1}" width="800" height="500"></iframe>', unsafe_allow_html=True)
+    #https://drive.google.com/file/d/1if24LYZp-r2vLb9IeMDZcfsRzN6jLJwb/view?usp=sharing
 #############################Pagina 3############################## 
 
 def page3():
@@ -79,6 +79,9 @@ def page5():
 
 def page6():
     st.header('Semana 5: Reacciones Químicas', divider='rainbow')
+
+    diapositivas5 = "https://docs.google.com/presentation/d/1yjiifuX45QFjLBRFF8xks4ltaSuhz7lr/preview"
+    st.markdown(f'<iframe src="{diapositivas5}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
 #############################Pagina 7############################## 
 
