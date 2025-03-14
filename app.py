@@ -90,9 +90,9 @@ def page3():
 #Concentraciones
 #https://phet.colorado.edu/sims/html/concentration/latest/concentration_all.html
 
-st.info("Formas de las moléculas")
-phet2 = "https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html"
-st.components.v1.iframe(phet2, width=800, height=600, scrolling=False)
+    st.info("Formas de las moléculas")
+    phet2 = "https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html"
+    st.components.v1.iframe(phet2, width=800, height=600, scrolling=False)
 
 #############################Pagina 4############################## 
 def page4():
