@@ -50,7 +50,7 @@ def Home():
     st.markdown(f"[⬇️ Semana 1: Materia y estructura atómica]( {clase1_url} )", unsafe_allow_html=True)
 
     clase2_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase2_.pdf"
-    st.markdown(f"[⬇️ Semana 1: Materia y estructura atómica]( {clase2_url} )", unsafe_allow_html=True)
+    st.markdown(f"[⬇️ Semana 2: Configuración electrónica y Tabla Periódica]( {clase2_url} )", unsafe_allow_html=True)
     
     silabo_url1 = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/SILABO.pdf"
     st.markdown(f"[⬇️ Sílabo]( {silabo_url1} )", unsafe_allow_html=True)
