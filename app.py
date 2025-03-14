@@ -59,7 +59,7 @@ def Home():
 #############################Pagina 2############################## 
 
 def page2():
-    st.header('Semana 1: Estructura atómica y Tabla periódica', divider='rainbow')
+    st.header('Semana 1: Estructura atómica y Números cuánticos', divider='rainbow')
     diapositivas1 = "https://docs.google.com/presentation/d/1mrNHsc_6a0d4AQsiWsYsQvvRqqctcFey/preview"
     st.markdown(f'<iframe src="{diapositivas1}" width="800" height="500"></iframe>', unsafe_allow_html=True)
 
@@ -72,26 +72,24 @@ def page2():
     phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
     st.components.v1.iframe(phet1, width=800, height=600, scrolling=False)
 
-    st.info("Formas de las moléculas")
-    phet2 = "https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html"
-    st.components.v1.iframe(phet2, width=800, height=600, scrolling=False)
-
     st.info("Isótopos")
     phet3 = "https://phet.colorado.edu/sims/html/isotopes-and-atomic-mass/latest/isotopes-and-atomic-mass_all.html"
     st.components.v1.iframe(phet3, width=800, height=600, scrolling=False)
 
-
-
-
 #############################Pagina 3############################## 
 def page3():
-    st.header('Semana 2:', divider='rainbow')
-
+    st.header('Semana 2: Configuración electrónica y Tabla Periódica', divider='rainbow')
+    diapositivas2 = "https://docs.google.com/presentation/d/1uB9ZxmqtUurYLzW52iniCsM94g14drSy/preview"
+    st.markdown(f'<iframe src="{diapositivas2}" width="800" height="500"></iframe>', unsafe_allow_html=True)
 #Polaridad
 #https://phet.colorado.edu/sims/html/molecule-polarity/latest/molecule-polarity_all.html
 
 #Concentraciones
 #https://phet.colorado.edu/sims/html/concentration/latest/concentration_all.html
+
+st.info("Formas de las moléculas")
+phet2 = "https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html"
+st.components.v1.iframe(phet2, width=800, height=600, scrolling=False)
 
 #############################Pagina 4############################## 
 def page4():
@@ -152,7 +150,7 @@ def page11():
 page_names_to_funcs = {
   "Generalidades": Home,
   "Semana 1: Estructura atómica": page2,
-  "Semana 2": page3,
+  "Semana 2: Configuración y Tabla Periódica": page3,
   "Semana 3": page4,
   "Semana 4": page5,
   "Semana 5: Reacciones Químicas": page6,
