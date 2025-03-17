@@ -71,10 +71,6 @@ def page2():
     st.write("Practica los números cuánticos con ejercicios [aquí](%s)" % enlace)
     st.image("img/nuclido1.png", caption="https://numeroscuanticos.streamlit.app/")
 
-    st.info("Juguemos con simulaciones")
-    phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
-    st.components.v1.iframe(phet1, width=800, height=600, scrolling=False)
-
     st.info("Isótopos")
     phet3 = "https://phet.colorado.edu/sims/html/isotopes-and-atomic-mass/latest/isotopes-and-atomic-mass_all.html"
     st.components.v1.iframe(phet3, width=800, height=600, scrolling=False)
@@ -84,24 +80,33 @@ def page3():
     st.header('Semana 2: Configuración electrónica y Tabla Periódica', divider='rainbow')
     diapositivas2 = "https://docs.google.com/presentation/d/1-DfJRnfVsC4PgaiBUFDLZ1eoEV1Ix0MP/preview"  #"https://docs.google.com/presentation/d/1uB9ZxmqtUurYLzW52iniCsM94g14drSy/preview"
     st.markdown(f'<iframe src="{diapositivas2}" width="800" height="500"></iframe>', unsafe_allow_html=True)
-#Polaridad
-#https://phet.colorado.edu/sims/html/molecule-polarity/latest/molecule-polarity_all.html
 
-#Concentraciones
-#https://phet.colorado.edu/sims/html/concentration/latest/concentration_all.html
-
-    st.info("Formas de las moléculas")
-    phet2 = "https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html"
+    st.info("Construye átomos")
+    phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
+    st.components.v1.iframe(phet1, width=800, height=600, scrolling=False)
+    
+    st.info("Estados de la materia")
+    phet2 = "https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html"
     st.components.v1.iframe(phet2, width=800, height=600, scrolling=False)
+    
+    st.info("Formas de las moléculas")
+    phet3 = "https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html"
+    st.components.v1.iframe(phet3, width=800, height=600, scrolling=False)
+
+    #Polaridad
+    #https://phet.colorado.edu/sims/html/molecule-polarity/latest/molecule-polarity_all.html
+    
+    #Concentraciones
+    #https://phet.colorado.edu/sims/html/concentration/latest/concentration_all.html
 
 #############################Pagina 4############################## 
 def page4():
-    st.header('Semana 3:', divider='rainbow')
+    st.header('Semana 3: Unidades Químicas de Masa', divider='rainbow')
 
 #############################Pagina 5############################## 
 
 def page5():
-    st.header('Semana 4:', divider='rainbow')
+    st.header('Semana 4: MOL', divider='rainbow')
 
 #############################Pagina 6############################## 
 
@@ -129,22 +134,22 @@ def page7():
 #############################Pagina 8############################## 
 
 def page8():
-    st.header('Semana 7:', divider='rainbow')
+    st.header('Semana 7: Estequiometría', divider='rainbow')
 
 #############################Pagina 9############################## 
 
 def page9():
-    st.header('Semana 8:', divider='rainbow')
+    st.header('Semana 8: Estado Gaseoso', divider='rainbow')
 
 #############################Pagina 10############################## 
 
 def page10():
-    st.header('Semana 9:', divider='rainbow')
+    st.header('Semana 9: Unidades de Concentración', divider='rainbow')
 
 #############################Pagina 11############################## 
 
 def page11():
-   st.header('Semana 10:', divider='rainbow')
+   st.header('Semana 10: Medio Ambiente', divider='rainbow')
    
 ################################################################### 
 ##########################Configuracion############################    
