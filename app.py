@@ -159,14 +159,14 @@ page_names_to_funcs = {
   "Generalidades": Home,
   "Semana 1: Estructura atómica": page2,
   "Semana 2: Configuración y Tabla Periódica": page3,
-  "Semana 3": page4,
-  "Semana 4": page5,
+  "Semana 3: Unidades Químicas de Masa": page4,
+  "Semana 4: MOL": page5,
   "Semana 5: Reacciones Químicas": page6,
   "Semana 6: Balance de Reacciones": page7,
-  "Semana 7": page8,
-  "Semana 8": page9,
-  "Semana 9": page10,
-  "Semana 10": page11,
+  "Semana 7: Estequiometría": page8,
+  "Semana 8: Estado Gaseoso": page9,
+  "Semana 9: Unidades de Concentración": page10,
+  "Semana 10: Medio Ambiente": page11,
 }
 
 selected_page = st.sidebar.selectbox("Temario", page_names_to_funcs.keys())
