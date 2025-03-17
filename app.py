@@ -49,7 +49,7 @@ def Home():
     clase1_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase1.pdf"
     st.markdown(f"[⬇️ Semana 1: Materia y estructura atómica]( {clase1_url} )", unsafe_allow_html=True)
 
-    clase2_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase2_.pdf"
+    clase2_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase2.pdf"
     st.markdown(f"[⬇️ Semana 2: Configuración electrónica y Tabla Periódica]( {clase2_url} )", unsafe_allow_html=True)
     
     silabo_url1 = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/SILABO.pdf"
@@ -82,7 +82,7 @@ def page2():
 #############################Pagina 3############################## 
 def page3():
     st.header('Semana 2: Configuración electrónica y Tabla Periódica', divider='rainbow')
-    diapositivas2 = "https://docs.google.com/presentation/d/1uB9ZxmqtUurYLzW52iniCsM94g14drSy/preview"
+    diapositivas2 = "https://docs.google.com/presentation/d/1-DfJRnfVsC4PgaiBUFDLZ1eoEV1Ix0MP/preview"  #"https://docs.google.com/presentation/d/1uB9ZxmqtUurYLzW52iniCsM94g14drSy/preview"
     st.markdown(f'<iframe src="{diapositivas2}" width="800" height="500"></iframe>', unsafe_allow_html=True)
 #Polaridad
 #https://phet.colorado.edu/sims/html/molecule-polarity/latest/molecule-polarity_all.html
