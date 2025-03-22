@@ -19,11 +19,11 @@ def Home():
     st.write("Bienvenidos al curso de Química General donde aprenderemos desde los principios básicos de la química hasta aplicaciones en la vida cotidiana y en la investigación científica.")
     st.markdown("---")
 
-    st.info("NOVEDADES: Números cuánticos")
-    enlace = "https://numeroscuanticos.streamlit.app/"
-    st.write("Practica los números cuánticos con ejercicios [aquí](%s)" % enlace)
-    st.image("img/nuclido1.png", caption="https://numeroscuanticos.streamlit.app/")
-    st.markdown("---")
+    #st.info("NOVEDADES: Números cuánticos")
+    #enlace = "https://numeroscuanticos.streamlit.app/"
+    #st.write("Practica los números cuánticos con ejercicios [aquí](%s)" % enlace)
+    #st.image("img/nuclido1.png", caption="https://numeroscuanticos.streamlit.app/")
+    #st.markdown("---")
     
     # Temario
     st.markdown("## 📌 Temario del Curso")
