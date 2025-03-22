@@ -95,13 +95,16 @@ def page3():
 
     #Polaridad
     #https://phet.colorado.edu/sims/html/molecule-polarity/latest/molecule-polarity_all.html
-    
-    #Concentraciones
-    #https://phet.colorado.edu/sims/html/concentration/latest/concentration_all.html
 
 #############################Pagina 4############################## 
 def page4():
     st.header('Semana 3: Unidades Químicas de Masa', divider='rainbow')
+    diapositivas3 = "https://docs.google.com/presentation/d/1dPRATUw6erKgP5Nj8hkSR8gTqMOinjap/preview"
+    st.markdown(f'<iframe src="{diapositivas3}" width="800" height="500"></iframe>', unsafe_allow_html=True)
+
+    st.info("Concentraciones")
+    phet4 = "https://phet.colorado.edu/sims/html/concentration/latest/concentration_all.html"
+    st.components.v1.iframe(phet4, width=800, height=600, scrolling=False)
 
 #############################Pagina 5############################## 
 
