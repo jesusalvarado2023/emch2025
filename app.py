@@ -45,7 +45,10 @@ def Home():
     st.markdown("## 📥 Descargas")
     st.write("Archivos en formatos PDF.")
     
-    # URL del archivo PDF en tu repositorio de GitHub
+    # URL del archivo PDF en tu repositorio °de GitHub
+    repasoPC1_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Practicas_QUIMICA_EMCH/REPASO_PC1_QUIMICA_EMCH.pdf"
+    st.markdown(f"[⬇️ Repaso para PC1]( {repasoPC1_url} )", unsafe_allow_html=True)
+    
     clase1_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase1.pdf"
     st.markdown(f"[⬇️ Semana 1: Materia y estructura atómica]( {clase1_url} )", unsafe_allow_html=True)
 
