@@ -121,9 +121,9 @@ def page5():
     reaccion5 = "https://phet.colorado.edu/sims/html/reactants-products-and-leftovers/latest/reactants-products-and-leftovers_all.html"
     st.components.v1.iframe(reaccion5, width=800, height=600, scrolling=False)
 
-   st.info("Balance de ecuaciones químicas")
-   reaccion6 = "https://phet.colorado.edu/sims/html/balancing-chemical-equations/latest/balancing-chemical-equations_en.html"
-   st.components.v1.iframe(reaccion6, width=800, height=600, scrolling=False)
+    st.info("Balance de ecuaciones químicas")
+    reaccion6 = "https://phet.colorado.edu/sims/html/balancing-chemical-equations/latest/balancing-chemical-equations_en.html"
+    st.components.v1.iframe(reaccion6, width=800, height=600, scrolling=False)
 
 #############################Pagina 6############################## 
 
