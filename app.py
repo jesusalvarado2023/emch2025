@@ -112,30 +112,33 @@ def page4():
 #############################Pagina 5############################## 
 
 def page5():
-    st.header('Semana 4: MOL', divider='rainbow')
+    st.header('Semana 4: Reacciones Químicas', divider='rainbow')
+
+    diapositivas5 = "https://docs.google.com/presentation/d/1MCUcEQO-ALoaTvGrPy_6ac1anN5k-JV0/preview"
+    st.markdown(f'<iframe src="{diapositivas5}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
+
+    st.info("Reacciones químicas")
+    reaccion5 = "https://phet.colorado.edu/sims/html/reactants-products-and-leftovers/latest/reactants-products-and-leftovers_all.html"
+    st.components.v1.iframe(reaccion5, width=800, height=600, scrolling=False)
+
+   st.info("Balance de ecuaciones químicas")
+   reaccion6 = "https://phet.colorado.edu/sims/html/balancing-chemical-equations/latest/balancing-chemical-equations_en.html"
+   st.components.v1.iframe(reaccion6, width=800, height=600, scrolling=False)
 
 #############################Pagina 6############################## 
 
 def page6():
-    st.header('Semana 5: Reacciones Químicas', divider='rainbow')
+    st.header('Semana 5:', divider='rainbow')
 
-    diapositivas5 = "https://docs.google.com/presentation/d/1yjiifuX45QFjLBRFF8xks4ltaSuhz7lr/preview"
-    st.markdown(f'<iframe src="{diapositivas5}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
-
-    st.info("Juguemos con simulaciones")
-    reaccion5 = "https://phet.colorado.edu/sims/html/reactants-products-and-leftovers/latest/reactants-products-and-leftovers_all.html"
-    st.components.v1.iframe(reaccion5, width=800, height=600, scrolling=False)
 
 #############################Pagina 7############################## 
 def page7():
-   st.header('Semana 6: Balance de Reacciones', divider='rainbow')
+   st.header('Semana 6:', divider='rainbow')
 
-   diapositivas6 = "https://docs.google.com/presentation/d/1fYiv0TwEqXue4sgTAmpw7kUX6L4q-gJp/preview"
-   st.markdown(f'<iframe src="{diapositivas6}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
+   #diapositivas6 = "https://docs.google.com/presentation/d/1fYiv0TwEqXue4sgTAmpw7kUX6L4q-gJp/preview"
+   #st.markdown(f'<iframe src="{diapositivas6}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
-   st.info("Juguemos con simulaciones")
-   reaccion6 = "https://phet.colorado.edu/sims/html/balancing-chemical-equations/latest/balancing-chemical-equations_en.html"
-   st.components.v1.iframe(reaccion6, width=800, height=600, scrolling=False)
+
 
 #############################Pagina 8############################## 
 
