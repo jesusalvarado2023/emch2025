@@ -128,8 +128,10 @@ def page5():
 #############################Pagina 6############################## 
 
 def page6():
-    st.header('Semana 5:', divider='rainbow')
+    st.header('Semana 5: Estequiometría', divider='rainbow')
 
+    diapositivas6 = "https://docs.google.com/presentation/d/1Ji7QVOSaUglLYNA6ipRadnnO3aRqwn5i/preview"
+    st.markdown(f'<iframe src="{diapositivas6}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
 #############################Pagina 7############################## 
 def page7():
@@ -143,22 +145,22 @@ def page7():
 #############################Pagina 8############################## 
 
 def page8():
-    st.header('Semana 7: Estequiometría', divider='rainbow')
+    st.header('Semana 7: ', divider='rainbow')
 
 #############################Pagina 9############################## 
 
 def page9():
-    st.header('Semana 8: Estado Gaseoso', divider='rainbow')
+    st.header('Semana 8: ', divider='rainbow')
 
 #############################Pagina 10############################## 
 
 def page10():
-    st.header('Semana 9: Unidades de Concentración', divider='rainbow')
+    st.header('Semana 9: ', divider='rainbow')
 
 #############################Pagina 11############################## 
 
 def page11():
-   st.header('Semana 10: Medio Ambiente', divider='rainbow')
+   st.header('Semana 10: ', divider='rainbow')
    
 ################################################################### 
 ##########################Configuracion############################    
@@ -170,12 +172,12 @@ page_names_to_funcs = {
   "Semana 2: Configuración y Tabla Periódica": page3,
   "Semana 3: Unidades Químicas de Masa": page4,
   "Semana 4: Reacciones Químicas": page5,
-  "Semana 5: ": page6,
+  "Semana 5: Estequiometría": page6,
   "Semana 6: ": page7,
-  "Semana 7: Estequiometría": page8,
-  "Semana 8: Estado Gaseoso": page9,
-  "Semana 9: Unidades de Concentración": page10,
-  "Semana 10: Medio Ambiente": page11,
+  "Semana 7: ": page8,
+  "Semana 8: ": page9,
+  "Semana 9: ": page10,
+  "Semana 10: ": page11,
 }
 
 selected_page = st.sidebar.selectbox("Temario", page_names_to_funcs.keys())
