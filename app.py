@@ -74,7 +74,7 @@ def Home():
     # Pregunta 4
     st.subheader("Pregunta 4")
     st.markdown("""
-    Complete y clasifique la reacción:  
+    Complete la reacción indicando cuáles son los productos, cuánto es la suma de coeficientes estequiométricos y clasifique la reacción:  
     **Al + H₂SO₄ → _______ + ______**
     """)
     q4 = st.radio("Seleccione la respuesta correcta:",
