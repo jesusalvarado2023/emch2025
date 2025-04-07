@@ -18,12 +18,9 @@ def Home():
     st.subheader(titulo_curso)
     st.write("Bienvenidos al curso de Química General donde aprenderemos desde los principios básicos de la química hasta aplicaciones en la vida cotidiana y en la investigación científica.")
     st.markdown("---")
-####################################
+    ####################################
     st.info("NOVEDADES: PRACTICANDO PARA EL EXAMEN PARCIAL")
-    
-    import streamlit as st
-
-    st.title("Examen de Química - Reacciones y Cálculos Químicos")
+    #st.info("Examen de Química - Reacciones y Cálculos Químicos")
     
     st.markdown("Cada pregunta vale **4 puntos**. Total: **20 puntos**.")
     st.markdown("---")
@@ -127,7 +124,7 @@ def Home():
     #st.write("Practica los números cuánticos con ejercicios [aquí](%s)" % enlace)
     #st.image("img/nuclido1.png", caption="https://numeroscuanticos.streamlit.app/")
     st.markdown("---")
-####################################    
+    ####################################    
     # Temario
     st.markdown("## 📌 Temario del Curso")
     temario = {
