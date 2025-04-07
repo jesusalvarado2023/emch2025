@@ -23,7 +23,7 @@ def Home():
     #st.info("Examen de Química - Reacciones y Cálculos Químicos")
     
     st.markdown("Cada pregunta vale **4 puntos**. Total: **20 puntos**.")
-    st.markdown("---")
+    #st.markdown("---")
     
     score = 0
     
