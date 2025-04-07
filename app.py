@@ -18,13 +18,116 @@ def Home():
     st.subheader(titulo_curso)
     st.write("Bienvenidos al curso de Química General donde aprenderemos desde los principios básicos de la química hasta aplicaciones en la vida cotidiana y en la investigación científica.")
     st.markdown("---")
+####################################
+    st.info("NOVEDADES: PRACTICANDO PARA EL EXAMEN PARCIAL")
+    
+    import streamlit as st
 
-    #st.info("NOVEDADES: Números cuánticos")
+    st.title("Examen de Química - Reacciones y Cálculos Químicos")
+    
+    st.markdown("Cada pregunta vale **4 puntos**. Total: **20 puntos**.")
+    st.markdown("---")
+    
+    score = 0
+    
+    # Pregunta 1
+    st.subheader("Pregunta 1")
+    st.markdown("""
+    La capsaicina (C₁₈H₂₇NO₃) es una sustancia que se encuentra en los pimientos picantes. Se utiliza en la elaboración del gas pimienta.  
+    (C = 12g/mol; H = 1g/mol; O = 16g/mol; N = 14g/mol)  
+    Respecto a este compuesto:
+    """)
+    q1 = st.radio("Seleccione la respuesta correcta:",
+                  options=[
+                      "a) Masa molecular: 305 g/mol; %C ≈ 70.8%; Moles en 100g: 0.33",
+                      "b) Masa molecular: 295 g/mol; %C ≈ 72%; Moles en 100g: 0.40",
+                      "c) Masa molecular: 323 g/mol; %C ≈ 67%; Moles en 100g: 0.30"
+                  ],
+                  key="q1")
+    
+    # Pregunta 2
+    st.subheader("Pregunta 2")
+    st.markdown("""
+    El gas cloro (Cl₂) es un gas tóxico. La reacción química es:  
+    **KMnO₄ + HCl → KCl + MnCl₂ + H₂O + Cl₂**  
+    Seleccione la respuesta correcta:
+    """)
+    q2 = st.radio("Seleccione la respuesta correcta:",
+                  options=[
+                      "a) Ecuación balanceada: 2 KMnO₄ + 16 HCl → 2 KCl + 2 MnCl₂ + 8 H₂O + 5 Cl₂ / Reacción irreversible",
+                      "b) Ecuación balanceada: KMnO₄ + 8 HCl → KCl + MnCl₂ + 4 H₂O + 2 Cl₂ / Reacción reversible",
+                      "c) Ecuación balanceada: KMnO₄ + HCl → KCl + MnCl₂ + H₂O + Cl₂ / Reacción reversible"
+                  ],
+                  key="q2")
+    
+    # Pregunta 3
+    st.subheader("Pregunta 3")
+    st.markdown("""
+    C₇H₈ + HNO₃ → C₆H₂(NO₂)₃CH₃ + H₂O  
+    Balancear por tanteo e indicar la suma de coeficientes estequiométricos de los reactantes.
+    """)
+    q3 = st.radio("Seleccione la respuesta correcta:",
+                  options=[
+                      "a) 1 C₇H₈ + 3 HNO₃ → ... / Suma: 4",
+                      "b) 2 C₇H₈ + 3 HNO₃ → ... / Suma: 5",
+                      "c) 1 C₇H₈ + 2 HNO₃ → ... / Suma: 3"
+                  ],
+                  key="q3")
+    
+    # Pregunta 4
+    st.subheader("Pregunta 4")
+    st.markdown("""
+    Complete y clasifique la reacción:  
+    **Al + H₂SO₄ → _______ + ______**
+    """)
+    q4 = st.radio("Seleccione la respuesta correcta:",
+                  options=[
+                      "a) Al₂(SO₄)₃ + H₂ / 9 / Desplazamiento simple",
+                      "b) Al(SO₄)₃ + H / 8 / Desplazamiento doble",
+                      "c) Al₃(SO₄)₂ + H / 10 / Desplazamiento simple",
+                      "d) Al₂SO₄ + H₂ / 9 / Desplazamiento doble"
+                  ],
+                  key="q4")
+    
+    # Pregunta 5
+    st.subheader("Pregunta 5")
+    st.markdown("""
+    Indique la correspondencia correcta entre reacción y clasificación:  
+    a) CaCO₃ (s) → CaO (s) + CO₂ (g)  
+    b) Zn (s) + CuSO₄ (ac) → ZnSO₄ (ac) + Cu (s)  
+    c) AgNO₃ (ac) + HCl (ac) → HNO₃ (ac) + AgCl (s)
+    """)
+    q5 = st.radio("Seleccione la respuesta correcta:",
+                  options=[
+                      "a) (b) Desplazamiento simple / (a) Descomposición / (c) Doble desplazamiento",
+                      "b) (a) Descomposición / (b) Desplazamiento simple / (c) Doble desplazamiento",
+                      "c) (c) Descomposición / (a) Doble desplazamiento / (b) Desplazamiento simple"
+                  ],
+                  key="q5")
+    
+    # Evaluación
+    if st.button("Enviar respuestas"):
+        if q1.startswith("a)"):
+            score += 4
+        if q2.startswith("a)"):
+            score += 4
+        if q3.startswith("a)"):
+            score += 4
+        if q4.startswith("a)"):
+            score += 4
+        if q5.startswith("b)"):
+            score += 4
+    
+        st.success(f"Tu puntaje es: {score} / 20")
+    
+
+    
+    
     #enlace = "https://numeroscuanticos.streamlit.app/"
     #st.write("Practica los números cuánticos con ejercicios [aquí](%s)" % enlace)
     #st.image("img/nuclido1.png", caption="https://numeroscuanticos.streamlit.app/")
-    #st.markdown("---")
-    
+    st.markdown("---")
+####################################    
     # Temario
     st.markdown("## 📌 Temario del Curso")
     temario = {
