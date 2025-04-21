@@ -235,17 +235,18 @@ def page6():
 
 #############################Pagina 7############################## 
 def page7():
-   st.header('Semana 6:', divider='rainbow')
+   st.header('Semana 6: Estado Gaseoso', divider='rainbow')
 
-   #diapositivas6 = "https://docs.google.com/presentation/d/1fYiv0TwEqXue4sgTAmpw7kUX6L4q-gJp/preview"
-   #st.markdown(f'<iframe src="{diapositivas6}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
-
+   diapositivas7 = "https://docs.google.com/presentation/d/15u81D0lWS8UYIfNir7sr3hxtsr7gO0yR/preview"
+   st.markdown(f'<iframe src="{diapositivas7}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
 
 #############################Pagina 8############################## 
 
 def page8():
-    st.header('Semana 7: ', divider='rainbow')
+    st.header('Semana 7: Soluciones', divider='rainbow')
+    diapositivas8 = "https://docs.google.com/presentation/d/1zeQYdC_fhoyhl4fMWv5gNwrpOIS9jgOV/preview"
+    st.markdown(f'<iframe src="{diapositivas8}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
 #############################Pagina 9############################## 
 
