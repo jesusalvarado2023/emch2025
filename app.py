@@ -118,6 +118,12 @@ def Home():
     #enlace = "https://numeroscuanticos.streamlit.app/"
     #st.write("Practica los números cuánticos con ejercicios [aquí](%s)" % enlace)
     #st.image("img/nuclido1.png", caption="https://numeroscuanticos.streamlit.app/")
+
+    ############################################################################
+    st.info("Ley de Charles (P cte")
+    st.markdown("![Alt Text](https://upload.wikimedia.org/wikipedia/commons/e/e4/Charles_and_Gay-Lussac%27s_Law_animated.gif)")
+
+    
     st.markdown("---")
     ####################################    
     # Temario
