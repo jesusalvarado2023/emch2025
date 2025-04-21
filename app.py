@@ -248,7 +248,7 @@ def page7():
 #############################Pagina 8############################## 
 
 def page8():
-    st.header('Semana 7: Soluciones', divider='rainbow')
+    st.header('Semana 7: Leyes Empíricas y Soluciones', divider='rainbow')
     diapositivas8 = "https://docs.google.com/presentation/d/1zeQYdC_fhoyhl4fMWv5gNwrpOIS9jgOV/preview"
     st.markdown(f'<iframe src="{diapositivas8}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
@@ -295,7 +295,7 @@ page_names_to_funcs = {
   "Semana 4: Reacciones Químicas": page5,
   "Semana 5: Estequiometría": page6,
   "Semana 6: Estado Gaseoso": page7,
-  "Semana 7: Soluciones": page8,
+  "Semana 7: Leyes Empíricas y Soluciones": page8,
   "Semana 8: ": page9,
   "Semana 9: ": page10,
   "Semana 10: ": page11,
