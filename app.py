@@ -252,6 +252,14 @@ def page8():
     diapositivas8 = "https://docs.google.com/presentation/d/1zeQYdC_fhoyhl4fMWv5gNwrpOIS9jgOV/preview"
     st.markdown(f'<iframe src="{diapositivas8}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
+    st.info("Introducción a los Gases")
+    phet7 = "https://phet.colorado.edu/sims/html/gases-intro/latest/gases-intro_all.html"
+    st.components.v1.iframe(phet7, width=800, height=600, scrolling=False)
+
+    st.info("Propiedades de los Gases")
+    phet7a = "https://phet.colorado.edu/sims/html/gas-properties/latest/gas-properties_all.html"
+    st.components.v1.iframe(phet7a, width=800, height=600, scrolling=False)
+    
     st.info("Soluciones")
     phet8 = "https://phet.colorado.edu/sims/html/concentration/latest/concentration_all.html"
     st.components.v1.iframe(phet8, width=800, height=600, scrolling=False)
