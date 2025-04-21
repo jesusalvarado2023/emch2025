@@ -120,9 +120,14 @@ def Home():
     #st.image("img/nuclido1.png", caption="https://numeroscuanticos.streamlit.app/")
 
     ############################################################################
-    st.info("Ley de Charles (P cte")
+    st.info("Ley de Charles (Proceso isobárico: P cte")
     st.markdown("![Alt Text](https://upload.wikimedia.org/wikipedia/commons/e/e4/Charles_and_Gay-Lussac%27s_Law_animated.gif)")
 
+    st.info("Ley de Boyle-Mariotte (Proceso isotérmico: T cte")
+    st.markdown("![Alt Text](https://upload.wikimedia.org/wikipedia/commons/1/15/Boyles_Law_animated.gif)")
+
+    st.info("Resumen")
+    st.markdown("![Alt Text](https://i.pinimg.com/originals/8c/fc/0c/8cfc0c7422c69e07ea676ee96cc45b63.gif)")
     
     st.markdown("---")
     ####################################    
