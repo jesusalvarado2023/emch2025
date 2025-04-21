@@ -141,14 +141,17 @@ def Home():
     st.write("Archivos en formatos PDF.")
     
     # URL del archivo PDF en tu repositorio °de GitHub
-    repasoPC1_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Practicas_QUIMICA_EMCH/REPASO_PC1_QUIMICA_EMCH.pdf"
-    st.markdown(f"[⬇️ Repaso para PC1]( {repasoPC1_url} )", unsafe_allow_html=True)
+    #repasoPC1_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Practicas_QUIMICA_EMCH/REPASO_PC1_QUIMICA_EMCH.pdf"
+    #st.markdown(f"[⬇️ Repaso para PC1]( {repasoPC1_url} )", unsafe_allow_html=True)
     
-    clase1_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase1.pdf"
-    st.markdown(f"[⬇️ Semana 1: Materia y estructura atómica]( {clase1_url} )", unsafe_allow_html=True)
+    #clase1_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase1.pdf"
+    #st.markdown(f"[⬇️ Semana 1: Materia y estructura atómica]( {clase1_url} )", unsafe_allow_html=True)
 
-    clase2_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase2.pdf"
-    st.markdown(f"[⬇️ Semana 2: Configuración electrónica y Tabla Periódica]( {clase2_url} )", unsafe_allow_html=True)
+    #clase2_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase2.pdf"
+    #st.markdown(f"[⬇️ Semana 2: Configuración electrónica y Tabla Periódica]( {clase2_url} )", unsafe_allow_html=True)
+
+    clase7_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/Clase7.pdf"
+    st.markdown(f"[⬇️ Semana 7: Soluciones]( {clase7_url} )", unsafe_allow_html=True)
     
     silabo_url1 = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/SILABO.pdf"
     st.markdown(f"[⬇️ Sílabo]( {silabo_url1} )", unsafe_allow_html=True)
