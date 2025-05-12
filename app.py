@@ -282,18 +282,22 @@ def page8():
 #############################Pagina 9############################## 
 
 def page9():
-    st.header('Semana 8: ', divider='rainbow')
+    st.header('Semana 8: Unidades de Concentración', divider='rainbow')
+    diapositivas9 = "https://docs.google.com/presentation/d/1592WeNGyiGaFN8g59OtrT40iqz7ggD85/preview"
+    st.markdown(f'<iframe src="{diapositivas9}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
 #############################Pagina 10############################## 
 
 def page10():
-    st.header('Semana 9: ', divider='rainbow')
+    st.header('Semana 9: Medio Ambiente', divider='rainbow')
+    diapositivas10 = "https://docs.google.com/presentation/d/1H1ptsaMvmf8GoY8nBfm0qXpI-aT2YcOn/preview"
+    st.markdown(f'<iframe src="{diapositivas10}" width="800" height="500" allow="autoplay"></iframe>', unsafe_allow_html=True)
 
 #############################Pagina 11############################## 
 
 def page11():
    st.header('Semana 10: ', divider='rainbow')
-   
+   st.write("Examen Final")
 ################################################################### 
 ##########################Configuracion############################    
 ###################################################################    
@@ -307,9 +311,9 @@ page_names_to_funcs = {
   "Semana 5: Estequiometría": page6,
   "Semana 6: Estado Gaseoso": page7,
   "Semana 7: Leyes Empíricas y Soluciones": page8,
-  "Semana 8: ": page9,
-  "Semana 9: ": page10,
-  "Semana 10: ": page11,
+  "Semana 8: Unidades de Concentración": page9,
+  "Semana 9: Medio Ambiente": page10,
+  "Semana 10: Examen Final": page11,
 }
 
 selected_page = st.sidebar.selectbox("Temario", page_names_to_funcs.keys())
